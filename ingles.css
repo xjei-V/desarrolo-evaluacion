@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9f5f9;
+    color: #333;
+}
+
+.header {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm_Q-h4rxK_DuzHX__eQ2q68xWGO_qN73BLA&s') center/cover no-repeat;
+    box-shadow: 0 2px 2px rgb(0, 0, 0,0,0.15);
+    color: #fff;
+}
+
+.intro-text {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+p {
+    margin: 0;
+}
+
+.benefits {
+    padding: 20px;
+    text-align: center;
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.benefits li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+    text-align: center;
+    padding: 20px;
+    background-color: #3b82f6;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
