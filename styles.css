@@ -7,30 +7,24 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: aliceblue;
 }
-.encabezado header{
-    display: inline-flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 12px;
-    width: 111.11%;
-    
-    
-}
-.encabezado h1{
-    background-color: cadetblue;
-    padding: 60px 0px ; 
-    text-align: center;
-    width: 111.11%;
-    position: relative;
-    left: -10px;
-    
-}
-.icono img{
+.encabezado {
     display: flex;
-    gap: 10px;
-    width: 200px;
-    height: auto;
-    
+    background-color: #2f3640;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+
+.encabezado h1 {
+    color: white;
+    font-size: 2.5em;
+    position: relative;
+    left: 50%;
+    bottom: 43%;
+}
+.icono img {
+    width: 150px;
+    position: relative;
+    bottom: -10px;
 }
 nav{
     
@@ -155,85 +149,120 @@ nav ul li a:hover{
 
 .main {
     grid-area: main;
-    display: inline-flex;
+    display: flex;
     width: 100%;
+    height: auto; /* Permite que la altura se ajuste según el contenido */
     gap: 20px;
-    
+    margin-bottom: 20px;
+    margin-left: 50px;
 }
-.profesores{
+
+.profesores {
     background-color: rgb(235, 212, 184);
     border: solid 2px black;
     border-radius: 4px;
-    padding: 30px 100px;
-    width: 37%;
-    
+    padding: 20px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    height: 480px; /* Ajustar según el tamaño que deseas */
+    box-sizing: border-box;
 }
-.profesores h1{
-    margin-left: 80px;
+
+.profesores h1 {
+    text-align: center;
     font-size: 1.5em;
     margin-bottom: 20px;
     color: black;
     font-weight: bold;
 }
-.profesores img{
-    width: 280px;
-    height: 260px;
+
+.profesores img {
+    width: 100%;
+    height: auto;
     border-radius: 5px;
     border: solid 2px black;
     box-shadow: 5px 6px 7px rgba(20, 13, 13, 0.644);
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
-.profesores img:hover{
+
+.profesores img:hover {
     border: 2px solid green;
     transform: scale(1.1);
     transition: 1.5s;
-
 }
 
-.perfil-profesores{
-    background-color: rgb(175, 168, 168);
+.perfil-profesores {
+    background-color: rgb(235, 212, 184);
     border: solid 2px black;
     border-radius: 4px;
-    padding: 30px 120px;
+    padding: 20px;
     width: 33%;
-    height: auto;
-}
-.perfil-profesores h1{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 480px;
+    box-sizing: border-box;
 }
-.perfil-profesores ul{
+
+.perfil-profesores h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.perfil-profesores ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin-left: -75px;
-    margin-top: 40px;
+    position: relative;
+    bottom: 50px;
+    }
 
-}
-.perfil-profesores ul li{
+.perfil-profesores ul li {
     padding: 5px 0;
 }
-.logros-profesores{
-    padding: 30px 102px;
-    background-color: rgb(175, 168, 168);
+
+.perfil-profesores span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2C3E50; 
+}
+
+.logros-profesores {
+    background-color: rgb(235, 212, 184);
     border: solid 2px black;
     border-radius: 4px;
+    padding: 20px;
     width: 33%;
-}
-.logros-profesores h1{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    height: 480px;
 }
-.logros-profesores ul li{
-    padding: 5px 0;
+
+.logros-profesores h1 {
+    text-align: center;
+    margin-bottom: 20px;
+
 }
+
 .logros-profesores ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin-left: -75px;
-    margin-top: 40px;
+    
 }
+
+.logros-profesores ul li {
+    padding: 5px 0;
+}
+
+.logros-profesores span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+
 .titulo{
     display: block;
     justify-content: center;
